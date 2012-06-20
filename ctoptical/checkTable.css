@@ -1,0 +1,408 @@
+@CHARSET "BIG5";
+
+
+	
+	
+@media all
+{
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	body {
+   		background: white;
+   		font-size: 10pt;
+  		font-family: MingLiU;
+		line-height: 1.2;
+ 		-webkit-text-size-adjust:none;
+  		
+	}
+	
+	table#titletable{
+		border-bottom: 1px dotted black;
+		font-size: 20pt;
+		width: 185mm;
+		}
+
+	td#titletable1, tr#titletable, th#titletable{
+		border: 0px;
+		width: 85mm;
+		text-align: left;
+		}
+	
+	
+	td#titletable2 {
+		border: 0px;
+		width: 40mm;
+		text-align: left;
+		}
+	
+	td#codebar {
+		font-size: 34pt;
+		line-height:0px;
+		border: 0px;
+		width: 100mm;
+		text-align: right;
+		font-family: "3 of 9 Barcode";
+		}
+	
+	
+	td.sellerAddress {
+		font-size: 10pt;
+		width: 125mm;
+		}
+
+	td.sellerPhone {
+		font-size: 10pt;
+		width: 60mm;
+		}
+	
+	table#pagetitle {
+		border-collapse: collapse;
+		text-align: right;
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		width: 185mm;
+		word-break:break-all;
+		font-weight: bold;
+		}
+		
+	table#sheettitle, table#endtable{
+		border-collapse: collapse;
+		width: 185mm;
+		border-top: 0px;
+		border-bottom: 1px solid black;
+		border-left: 0px;
+		border-right: 0px;
+		font-weight: bold;
+		}
+	
+	table#tablehead{
+		border-collapse: collapse;
+		width: 185mm;
+		border-top: 1px double black;
+		border-bottom: 1px dashed black;
+		border-left: 0px;
+		border-right: 0px;
+		font-weight: bold;
+		}
+		
+	table.content1{
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-collapse: collapse;
+		width: 185mm;
+		font-weight: bold;
+		}
+		
+	tr.content1{
+		border: 0px;
+		width: 185mm;
+		}
+	
+	table.content2{
+		border-top: 1px solid black;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-collapse: collapse;
+		width: 185mm;
+		display: none;
+		}
+	
+		
+	td#c1, td#ec1, td.c1{
+		border-collapse: collapse;
+		border: 0px;
+		width: 22mm;
+		word-break:break-all;
+		}
+
+	td#c2, td#ec2, td.c2{
+		border-collapse: collapse;
+		border: 0px;
+		width: 32mm;
+		word-break:break-all;
+		}
+
+
+	td#c3, td#ec3, td.c3{
+		border-collapse: collapse;
+		border: 0px;
+		width: 10mm;
+		word-break:break-all;
+		text-align: center;
+		}
+
+	td#c4, td#ec4, td.c4{
+		border-collapse: collapse;
+		border: 0px;
+		width: 77mm;
+		word-break:break-all;		
+		}
+
+	td#c5, td#ec5, td.c5{
+		border-collapse: collapse;
+		border: 0px;
+		width: 9mm;
+		text-align: right;
+		word-break:break-all;
+		}
+		
+	td#c6, td#ec6, td.c6{
+		border-collapse: collapse;
+		border: 0px;
+		width: 9mm;
+		text-align: center;
+		word-break:break-all;
+		}
+		
+	td#c7, td#ec7, td.c7{
+		border-collapse: collapse;
+		border: 0px;
+		width: 11mm;
+		text-align: right;
+		word-break:break-all;
+		}
+	
+	td#c8, td#ec8, td.c8{
+		border-collapse: collapse;
+		border: 0px;
+		width: 15mm;
+		text-align: right;
+		word-break:break-all;
+		}
+
+	td#c9, td#ec9, td.c9{
+		border-collapse: collapse;
+		border: 0px;
+		width: 14mm;
+		text-align: right;
+		word-break:break-all;
+		display: none;
+		}
+
+	td#endc3{
+		border-collapse: collapse;
+		border: 0px;
+		width: 18mm;
+		text-align: right;
+		word-break:break-all;
+		}
+	
+	td.tc1 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 10mm;
+		word-break:break-all;
+		text-align: center;
+		}
+	
+	td.tc2 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 27mm;
+		word-break:break-all;
+		}
+		
+	td.tc3 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 27mm;
+		word-break:break-all;
+		}
+
+	td.tc4 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 32mm;
+		word-break:break-all;
+		}
+		
+	td.tc5 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 92mm;
+		word-break:break-all;
+		}
+
+	td.tc6 {
+		border-collapse: collapse;
+		border: 0px;
+		width: 29mm;
+		word-break:break-all;
+		text-align: right;
+		}
+	tr#endrow{
+		border-top: double;
+		}
+	
+	tr#subtotal {
+		border-top: 2px solid;
+		}	
+   	
+	div#content {
+	   margin-left: 0%;
+	   margin-right: 0%;
+	   padding-top: 1em;
+	   }
+	div#mast {
+	   margin-bottom: -8px;
+	   }
+	div#mast img {
+	   vertical-align: bottom;
+	   }
+	a:link, a:visited {
+	   color: #520;
+	   background: transparent;
+	   font-weight: bold;
+	   text-decoration: underline;
+	   }
+	#content a:link:after, #content a:visited:after {
+	   content: " (" attr(href) ") ";
+	   font-size: 90%;
+	   }
+	#content a[href^="/"]:after {
+	   content: " (http://www.alistapart.com" attr(href) ") ";
+	   }
+
+  	.page-break  { display:none; }
+  	
+	.in-page-pagetitle { display:none;}
+	
+	.in-page-sheettitle { display:none;}
+	
+	.in-page-tablehead { display:none;}
+	
+	table.printbotton { display:table;}
+
+
+}
+
+
+@media print
+{
+	
+   	
+	div#content {
+	   margin-left: 0%;
+	   margin-right: 0%;
+	   padding-top: 1em;
+	   }
+	div#mast {
+	   margin-bottom: -8px;
+	   }
+	div#mast img {
+	   vertical-align: bottom;
+	   }
+	a:link, a:visited {
+	   color: #520;
+	   background: transparent;
+	   font-weight: bold;
+	   text-decoration: underline;
+	   }
+	#content a:link:after, #content a:visited:after {
+	   content: " (" attr(href) ") ";
+	   font-size: 90%;
+	   }
+	#content a[href^="/"]:after {
+	   content: " (http://www.alistapart.com" attr(href) ") ";
+	   }
+
+  	.page-break  { display:block; page-break-after:always; }
+  	
+/*	div.page-break:before {
+		content:"===========================================<Next Page>===========================================";
+		text-align: right;
+		}
+*/	
+
+	table.in-page-pagetitle { 
+		border-collapse: collapse;
+		text-align: right;
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		width: 185mm;
+		word-break:break-all;
+		display: table;
+		}
+		
+	
+	.in-page-sheettitle { 
+		border-collapse: collapse;
+		border-top: 1px double black;
+		border-left: 0px;
+		border-right: 0px;
+		width: 185mm;
+		display: table;
+		}
+
+	.in-page-tablehead { 
+		border-collapse: collapse;
+		border-top: 1px double black;
+		border-bottom: 1px dashed black;
+		border-left: 0px;
+		border-right: 0px;
+		width: 185mm;
+		display: table;
+		}
+
+	table.content2{
+		border-top: 1px solid black;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-collapse: collapse;
+		width: 185mm;
+		display: table;
+		}
+
+	table.printbotton { display:none;}
+
+}

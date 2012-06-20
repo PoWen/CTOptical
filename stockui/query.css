@@ -1,0 +1,149 @@
+@CHARSET "utf-8";
+
+@media all
+{
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		!border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	body {
+		font-size: 10pt;
+		font-family: MingLiU;
+		background: white;
+		-webkit-text-size-adjust:none;
+		margin: 5mm;
+	}
+	
+	div#top {
+		background-color:black;
+		color:white;
+		padding:15px 0 0 0;
+	}
+	
+	a#topRagic {
+		margin:15px 8px 0 15px;
+	}
+	
+	a#topCT {
+		margin:15px 8px 0 15px;
+	}
+	
+	b#topInfo {
+		margin:15px;
+	}
+	
+	a#topLogin {
+		color:gray;
+	}
+	
+	tr.blockHead {
+		border: 1px solid #AAAAAA;
+		background: #AAAAAA;
+		color: #FFFFFF;
+	}
+	
+	table.queryTableArea {
+		border: 1px solid #AAAAAA;
+		width: 100mm;
+		border-radius: 5px;
+	}
+	
+	table.margin {
+		margin: 1mm 5mm;
+	}
+	
+	div.margin {
+		margin: 1mm 5mm;
+	}
+
+	td, th.qc1 {
+		width: 20mm;
+	}
+	
+	td, th.qc2 {
+		width: 50mm;
+	}
+	
+	td, th.qc3 {
+		width: 20mm;
+	}
+	th.qc1 {
+		background-color:gray;
+		color: white;
+		padding: 1mm;
+	}
+	
+	th.qc2 {
+		background-color:gray;
+		color: white;
+		padding: 1mm;
+	}
+	
+	th.qc3 {
+		background-color:gray;
+		color: white;
+		padding: 1mm;
+	}
+	input.queryButton {
+		margin: 0mm;
+	}
+
+	div.queryBlockHead {
+		margin: 0mm 5mm;
+		height:8mm; 
+		line-height:8mm; 
+	}
+	
+	div.queryListContent {
+		margin: 0mm 5mm 5mm 5mm;
+		border: 1px solid #AAAAAA;
+		width: 100mm;
+		height: 40mm;
+		overflow: auto;
+	}
+	
+	select.queryResult {
+		width: 100mm;
+		margin: 1mm 5mm;
+	}
+}
